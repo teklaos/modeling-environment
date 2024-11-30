@@ -71,7 +71,9 @@ public class GUIRunner {
         });
 
         view.getRunFromFile().addActionListener(event -> {
-            JFileChooser fileChooser = new JFileChooser();
+            String projectDirectory = System.getProperty("user.dir");
+            File defaultDirectory = new File(projectDirectory).getParentFile();
+            JFileChooser fileChooser = new JFileChooser(defaultDirectory);
             int result = fileChooser.showOpenDialog(null);
 
             if (result == JFileChooser.APPROVE_OPTION) {
