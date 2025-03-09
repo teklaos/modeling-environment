@@ -1,7 +1,8 @@
 # Modeling Environment
 
-**Modeling Environment** is a powerful application designed to help users create and simulate various models with specific data, enabling predictions of potential future changes.
-Whether user is building predictive models or exploring data-driven scenarios, this tool provides a versatile environment for their modeling needs.
+**Modeling Environment** is an application designed to help users create and simulate various models with specific data, enabling predictions of potential future changes.
+
+---
 
 ## Installation
 
