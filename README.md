@@ -22,3 +22,11 @@ cd modeling-environment
 ```
 java -cp out/production/ModelingEnvironment;lib/* Main
 ```
+
+---
+
+## Key Features
+
+- Uses Java reflection to easily add new models without modifying the core engine logic.
+- Implements a custom annotation system to bind model fields to controller logic.
+- Supports Groovy scripts for defining custom behavior and logic, allowing runtime extensibility and experimentation without recompilation.
